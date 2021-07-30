@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"X  ",
+		" #",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:jungle_planks"},
+		"X":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+		"item":"nouveau:jungle_chaise",
+		"count": 2
+	}
+}

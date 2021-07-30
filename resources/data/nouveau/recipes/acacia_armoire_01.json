@@ -1,0 +1,16 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"#",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:acacia_meuble_02"
+		}
+	},
+	"result":{
+		"item":"nouveau:acacia_armoire_01",
+		"count": 2
+	}
+}

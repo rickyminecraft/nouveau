@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"# #",
+		"# #",
+		"# #"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:brick"
+		}
+	},
+	"result":{
+		"item":"nouveau:brick_fenetre",
+		"count": 2
+	}
+}

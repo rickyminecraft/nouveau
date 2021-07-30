@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"# ",
+		" #",
+		"# "
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:iron_ingot"
+		}
+	},
+	"result":{
+		"item":"nouveau:chaine_petite_fer",
+		"count": 3
+	}
+}

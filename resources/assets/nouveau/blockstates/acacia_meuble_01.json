@@ -1,0 +1,9 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "facing=north": { "model": "nouveau:block/acacia_meuble_01", "y": 180 },
+        "facing=south": { "model": "nouveau:block/acacia_meuble_01" },
+        "facing=east":  { "model": "nouveau:block/acacia_meuble_01", "y": 270 },
+		"facing=west":  { "model": "nouveau:block/acacia_meuble_01", "y": 90 }
+    }
+}

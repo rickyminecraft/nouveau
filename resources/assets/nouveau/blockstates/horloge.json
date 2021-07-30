@@ -1,0 +1,9 @@
+{
+	"forge_marker": 1,
+	"variants": {
+        "facing=north": { "model": "nouveau:block/horloge" },
+        "facing=south": { "model": "nouveau:block/horloge", "y": 180 },
+        "facing=west":  { "model": "nouveau:block/horloge", "y": 270 },
+        "facing=east":  { "model": "nouveau:block/horloge", "y": 90 }
+    }
+}

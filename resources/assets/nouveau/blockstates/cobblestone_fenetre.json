@@ -1,0 +1,25 @@
+{
+	"forge_marker": 1,
+    "variants": {
+		"facing=north,type=0": { "model": "nouveau:block/cobblestone_fenetre", "y": 180 },
+        "facing=south,type=0": { "model": "nouveau:block/cobblestone_fenetre"},
+        "facing=west,type=0":  { "model": "nouveau:block/cobblestone_fenetre", "y": 90 },
+        "facing=east,type=0":  { "model": "nouveau:block/cobblestone_fenetre", "y": 270 },
+		"facing=north,type=1": { "model": "nouveau:block/cobblestone_fenetre1", "y": 180 },
+        "facing=south,type=1": { "model": "nouveau:block/cobblestone_fenetre1"},
+        "facing=west,type=1":  { "model": "nouveau:block/cobblestone_fenetre1", "y": 90 },
+        "facing=east,type=1":  { "model": "nouveau:block/cobblestone_fenetre1", "y": 270 },
+		"facing=north,type=2": { "model": "nouveau:block/cobblestone_fenetre2", "y": 180 },
+        "facing=south,type=2": { "model": "nouveau:block/cobblestone_fenetre2"},
+        "facing=west,type=2":  { "model": "nouveau:block/cobblestone_fenetre2", "y": 90 },
+        "facing=east,type=2":  { "model": "nouveau:block/cobblestone_fenetre2", "y": 270 },
+		"facing=north,type=3": { "model": "nouveau:block/cobblestone_fenetre3", "y": 180 },
+        "facing=south,type=3": { "model": "nouveau:block/cobblestone_fenetre3"},
+        "facing=west,type=3":  { "model": "nouveau:block/cobblestone_fenetre3", "y": 90 },
+        "facing=east,type=3":  { "model": "nouveau:block/cobblestone_fenetre3", "y": 270 },
+		"facing=north,type=4": { "model": "nouveau:block/cobblestone_fenetre4", "y": 180 },
+        "facing=south,type=4": { "model": "nouveau:block/cobblestone_fenetre4"},
+        "facing=west,type=4":  { "model": "nouveau:block/cobblestone_fenetre4", "y": 90 },
+        "facing=east,type=4":  { "model": "nouveau:block/cobblestone_fenetre4", "y": 270 }
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		" #",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:spruce_planks"},
+		"X":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+		"item":"nouveau:spruce_tabouret"
+	}
+}

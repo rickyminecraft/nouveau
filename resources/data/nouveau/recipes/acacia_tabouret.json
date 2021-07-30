@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		" #",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:acacia_planks"},
+		"X":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+		"item":"nouveau:acacia_tabouret"
+	}
+}

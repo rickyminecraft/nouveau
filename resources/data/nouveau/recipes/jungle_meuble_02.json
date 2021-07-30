@@ -1,0 +1,20 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"X#X",
+		"#I#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:jungle_planks"},
+		"X":{
+			"item":"minecraft:stick"},
+		"I":{
+			"item":"minecraft:iron_ingot"
+		}
+	},
+	"result":{
+		"item":"nouveau:jungle_meuble_02",
+		"count": 2
+	}
+}

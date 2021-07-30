@@ -1,0 +1,11 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "facing=north": { "model": "nouveau:block/oak_creux", "y": 180 },
+        "facing=south": { "model": "nouveau:block/oak_creux"},
+        "facing=west":  { "model": "nouveau:block/oak_creux", "y": 90 },
+        "facing=east":  { "model": "nouveau:block/oak_creux", "y": 270 },
+		"facing=up": { "model": "nouveau:block/oak_creux", "x": 90 },
+		"facing=down": { "model": "nouveau:block/oak_creux", "x": 90 }
+    }
+}

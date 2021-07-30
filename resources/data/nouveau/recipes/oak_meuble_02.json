@@ -1,0 +1,20 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"X#X",
+		"#I#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:oak_planks"},
+		"X":{
+			"item":"minecraft:stick"},
+		"I":{
+			"item":"minecraft:iron_ingot"
+		}
+	},
+	"result":{
+		"item":"nouveau:oak_meuble_02",
+		"count": 2
+	}
+}

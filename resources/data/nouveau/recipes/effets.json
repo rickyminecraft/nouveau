@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		" # ",
+		"#X#",
+		" # "
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:nether_wart"},
+		"X":{
+			"item":"minecraft:glass_pane"
+		}
+	},
+	"result":{
+		"item":"nouveau:effets",
+		"count": 2
+	}
+}

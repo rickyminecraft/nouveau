@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "nouveau:blocks/dooriron4_lower",
+        "top": "nouveau:blocks/dooriron4_upper"
+    }
+}

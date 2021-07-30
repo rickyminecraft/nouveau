@@ -1,0 +1,10 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "type=0": { "model": "nouveau:block/effets" },
+        "type=1": { "model": "nouveau:block/effets" },
+        "type=2": { "model": "nouveau:block/effets" },
+		"type=3": { "model": "nouveau:block/effets" },
+		"type=4": { "model": "nouveau:block/effets" }
+    }
+}

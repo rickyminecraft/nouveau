@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/chaine_petite_all",
+	"textures":{
+	"all":"block/iron_block",
+	"particle": "block/iron_block"
+	}
+}

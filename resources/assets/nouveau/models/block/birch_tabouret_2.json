@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/tabouret_2_all",
+    "textures": {
+        "all": "block/birch_planks",
+        "particle": "block/birch_planks"
+    }
+}

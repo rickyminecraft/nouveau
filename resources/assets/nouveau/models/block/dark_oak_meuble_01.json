@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/meuble_01_all",
+    "textures": {
+        "all": "block/dark_oak_planks",
+        "particle": "block/dark_oak_planks"
+    }
+}

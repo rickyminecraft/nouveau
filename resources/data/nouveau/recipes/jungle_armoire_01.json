@@ -1,0 +1,16 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"#",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:jungle_meuble_02"
+		}
+	},
+	"result":{
+		"item":"nouveau:jungle_armoire_01",
+		"count": 2
+	}
+}

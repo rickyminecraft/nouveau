@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/chaine_large_all",
+	"textures":{
+	"all":"block/gold_block",
+	"particle": "block/gold_block"
+	}
+}

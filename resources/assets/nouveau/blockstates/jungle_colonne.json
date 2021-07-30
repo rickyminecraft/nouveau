@@ -1,0 +1,17 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "facing=north,type=0": { "model": "nouveau:block/jungle_colonne_centre"  },
+        "facing=south,type=0": { "model": "nouveau:block/jungle_colonne_centre", "y": 180 },
+        "facing=west,type=0":  { "model": "nouveau:block/jungle_colonne_centre", "y": 270 },
+        "facing=east,type=0":  { "model": "nouveau:block/jungle_colonne_centre", "y": 90 },
+        "facing=north,type=1": { "model": "nouveau:block/jungle_colonne_gauche"  },
+        "facing=south,type=1": { "model": "nouveau:block/jungle_colonne_gauche", "y": 180 },
+        "facing=west,type=1":  { "model": "nouveau:block/jungle_colonne_gauche", "y": 270 },
+        "facing=east,type=1":  { "model": "nouveau:block/jungle_colonne_gauche", "y": 90 },
+        "facing=north,type=2": { "model": "nouveau:block/jungle_colonne_droite"  },
+        "facing=south,type=2": { "model": "nouveau:block/jungle_colonne_droite", "y": 180 },
+        "facing=west,type=2":  { "model": "nouveau:block/jungle_colonne_droite", "y": 270 },
+        "facing=east,type=2":  { "model": "nouveau:block/jungle_colonne_droite", "y": 90 }
+    }
+}

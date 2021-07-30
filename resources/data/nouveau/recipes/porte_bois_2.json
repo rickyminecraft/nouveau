@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"XX",
+		"X#",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:oak_door"},
+		"X":{
+			"item":"minecraft:jungle_planks"
+		}
+	},
+	"result":{
+		"item":"nouveau:porte_bois_2",
+		"count": 3
+	}
+}

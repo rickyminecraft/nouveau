@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/tabouret_2_all",
+    "textures": {
+        "all": "block/oak_planks",
+        "particle": "block/oak_planks"
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"parent":"nouveau:block/pile_1",
+	"textures":{
+		"log":"block/oak_log",
+		"plank":"block/oak_planks",
+		"ore":"block/emerald_block",
+		"particle": "block/emerald_block"
+	}
+}

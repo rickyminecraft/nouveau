@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"#",
+		"X",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:dandelion"
+		},
+		"X":{
+			"item":"minecraft:glowstone"
+		}
+	},
+	"result":{
+		"item":"nouveau:lightblock_02"
+	}
+}

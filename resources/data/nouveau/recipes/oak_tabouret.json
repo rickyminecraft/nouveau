@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		" #",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:oak_planks"},
+		"X":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+		"item":"nouveau:oak_tabouret"
+	}
+}

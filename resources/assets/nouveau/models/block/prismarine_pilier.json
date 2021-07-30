@@ -1,0 +1,9 @@
+{
+	"parent": "nouveau:block/pilier_all",
+    "textures": {
+        "bottom": "block/prismarine",
+        "top": "block/prismarine",
+        "side": "block/prismarine",
+        "particle": "block/prismarine"
+    }
+}

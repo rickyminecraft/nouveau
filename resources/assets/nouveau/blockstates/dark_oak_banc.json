@@ -1,0 +1,9 @@
+{
+	"forge_marker": 1,
+	"variants": {
+        "facing=north": { "model": "nouveau:block/dark_oak_banc", "y": 180 },
+        "facing=south": { "model": "nouveau:block/dark_oak_banc" },
+        "facing=west":  { "model": "nouveau:block/dark_oak_banc", "y": 90 },
+        "facing=east":  { "model": "nouveau:block/dark_oak_banc", "y": 270 }
+    }
+}

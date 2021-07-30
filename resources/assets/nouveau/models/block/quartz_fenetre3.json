@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/fenetre_3_all",
+    "textures": {
+        "all": "block/quartz_block_side",
+        "particle": "block/quartz_block_side"
+    }
+}

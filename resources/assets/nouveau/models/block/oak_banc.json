@@ -1,0 +1,9 @@
+{
+	"parent": "nouveau:block/banc_all",
+    "textures": {
+        "bottom": "block/oak_planks",
+        "top": "block/oak_planks",
+        "side": "block/oak_planks",
+        "particle": "block/oak_planks"
+    }
+}

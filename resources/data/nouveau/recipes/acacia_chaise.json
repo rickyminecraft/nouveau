@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"X  ",
+		" #",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:acacia_planks"},
+		"X":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+		"item":"nouveau:acacia_chaise",
+		"count": 2
+	}
+}

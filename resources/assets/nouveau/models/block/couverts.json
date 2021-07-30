@@ -1,0 +1,20 @@
+{
+    "parent": "block/block",
+	"textures": {
+		"up": "nouveau:blocks/couverts",
+		"particle": "nouveau:blocks/couverts"
+    },
+    "elements": [
+        {   "from": [0, 0.01, 0],
+			"to": [16, 0.1, 16],
+            "faces": {
+                "down":  { "texture": "#up" },
+                "up":    { "texture": "#up" },
+                "north": { "texture": "#up" },
+                "south": { "texture": "#up" },
+                "west":  { "texture": "#up" },
+                "east":  { "texture": "#up" }
+            }
+        }
+    ]
+}

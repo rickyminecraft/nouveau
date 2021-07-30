@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"XX",
+		"X#",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:birch_door"},
+		"X":{
+			"item":"minecraft:dark_oak_planks"
+		}
+	},
+	"result":{
+		"item":"nouveau:porte_bois_8",
+		"count": 3
+	}
+}

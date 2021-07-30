@@ -1,0 +1,21 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "facing=north,type=0": { "model": "nouveau:block/acacia_chaise", "y": 180 },
+        "facing=south,type=0": { "model": "nouveau:block/acacia_chaise"},
+        "facing=west,type=0":  { "model": "nouveau:block/acacia_chaise", "y": 90 },
+        "facing=east,type=0":  { "model": "nouveau:block/acacia_chaise", "y": 270 },
+        "facing=north,type=1": { "model": "nouveau:block/acacia_chaise_1", "y": 180 },
+        "facing=south,type=1": { "model": "nouveau:block/acacia_chaise_1"},
+        "facing=west,type=1":  { "model": "nouveau:block/acacia_chaise_1", "y": 90 },
+        "facing=east,type=1":  { "model": "nouveau:block/acacia_chaise_1", "y": 270 },
+        "facing=north,type=2": { "model": "nouveau:block/acacia_chaise_2", "y": 180 },
+        "facing=south,type=2": { "model": "nouveau:block/acacia_chaise_2"},
+        "facing=west,type=2":  { "model": "nouveau:block/acacia_chaise_2", "y": 90 },
+        "facing=east,type=2":  { "model": "nouveau:block/acacia_chaise_2", "y": 270 },
+        "facing=north,type=3": { "model": "nouveau:block/acacia_chaise_3", "y": 180 },
+        "facing=south,type=3": { "model": "nouveau:block/acacia_chaise_3"},
+        "facing=west,type=3":  { "model": "nouveau:block/acacia_chaise_3", "y": 90 },
+        "facing=east,type=3":  { "model": "nouveau:block/acacia_chaise_3", "y": 270 }
+    }
+}

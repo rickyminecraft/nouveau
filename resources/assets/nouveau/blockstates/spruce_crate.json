@@ -1,0 +1,9 @@
+{
+	"forge_marker": 1,
+	"variants":{
+		"facing=south": {"model": "nouveau:block/spruce_crate"},
+		"facing=west": {"model": "nouveau:block/spruce_crate", "y": 90},
+		"facing=north": {"model": "nouveau:block/spruce_crate", "y": 180},
+		"facing=east": {"model": "nouveau:block/spruce_crate", "y": 270}
+	}
+}
