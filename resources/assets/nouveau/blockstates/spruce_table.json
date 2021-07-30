@@ -1,0 +1,7 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "type=0": { "model": "nouveau:block/spruce_table" },
+        "type=1": { "model": "nouveau:block/spruce_table_2" }
+    }
+}

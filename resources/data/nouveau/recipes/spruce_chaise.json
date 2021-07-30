@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"X  ",
+		" #",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:spruce_planks"},
+		"X":{
+			"item":"minecraft:stick"
+		}
+	},
+	"result":{
+		"item":"nouveau:spruce_chaise",
+		"count": 2
+	}
+}

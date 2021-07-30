@@ -1,0 +1,7 @@
+{
+    "parent": "nouveau:block/lumieres_mural_2_all",
+    "textures": {
+        "all": "nouveau:blocks/lightblock_01",
+        "particle": "nouveau:blocks/lightblock_01"
+    }
+}

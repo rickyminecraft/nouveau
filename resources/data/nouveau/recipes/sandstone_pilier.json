@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"#",
+		"#",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:sandstone"
+		}
+	},
+	"result":{
+		"item":"nouveau:sandstone_pilier",
+		"count": 2
+	}
+}

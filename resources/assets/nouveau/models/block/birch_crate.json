@@ -1,0 +1,8 @@
+{
+	"parent": "nouveau:block/crate_all",
+		"textures":{
+		"plank":"block/birch_planks",
+		"rod":"block/hopper_inside",
+		"particle": "block/birch_planks"
+	}
+}

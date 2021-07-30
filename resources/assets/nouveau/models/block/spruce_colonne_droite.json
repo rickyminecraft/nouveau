@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/colonne_droite_all",
+    "textures": {
+        "all": "block/spruce_planks",
+        "particle": "block/spruce_planks"
+    }
+}

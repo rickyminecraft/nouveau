@@ -1,0 +1,9 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "facing=north": { "model": "nouveau:block/dark_oak_table_angle", "y": 180 },
+        "facing=south": { "model": "nouveau:block/dark_oak_table_angle"},
+        "facing=west":  { "model": "nouveau:block/dark_oak_table_angle", "y": 90 },
+        "facing=east":  { "model": "nouveau:block/dark_oak_table_angle", "y": 270 }
+    }
+}

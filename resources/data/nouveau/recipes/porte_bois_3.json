@@ -1,0 +1,19 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"XX",
+		"X#",
+		"XX"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:spruce_door"},
+		"X":{
+			"item":"minecraft:spruce_planks"
+		}
+	},
+	"result":{
+		"item":"nouveau:porte_bois_3",
+		"count": 3
+	}
+}

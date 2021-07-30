@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/table_1_all",
+    "textures": {
+        "all": "block/oak_planks",
+        "particle": "block/oak_planks"
+    }
+}

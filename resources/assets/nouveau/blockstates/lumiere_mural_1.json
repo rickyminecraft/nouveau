@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"variants": {
+        "facing=north,type=0": { "model": "nouveau:block/lumiere_mural_3", "x": 270 },
+        "facing=south,type=0": { "model": "nouveau:block/lumiere_mural_3", "x": 90 },
+        "facing=west,type=0":  { "model": "nouveau:block/lumiere_mural_3", "x": 90, "y": 90 },
+        "facing=east,type=0":  { "model": "nouveau:block/lumiere_mural_3", "x": 90, "y": 270 },
+		"facing=up,type=0": { "model": "nouveau:block/lumiere_mural_3", "x": 180 },
+		"facing=down,type=0": { "model": "nouveau:block/lumiere_mural_3" },
+		"facing=north,type=1": { "model": "nouveau:block/lumiere_mural_4", "x": 270 },
+        "facing=south,type=1": { "model": "nouveau:block/lumiere_mural_4", "x": 90 },
+        "facing=west,type=1":  { "model": "nouveau:block/lumiere_mural_4", "x": 90, "y": 90 },
+        "facing=east,type=1":  { "model": "nouveau:block/lumiere_mural_4", "x": 90, "y": 270 },
+		"facing=up,type=1": { "model": "nouveau:block/lumiere_mural_4", "x": 180 },
+		"facing=down,type=1": { "model": "nouveau:block/lumiere_mural_4" },
+		"facing=north,type=2": { "model": "nouveau:block/lumiere_mural_5", "x": 270 },
+        "facing=south,type=2": { "model": "nouveau:block/lumiere_mural_5", "x": 90 },
+        "facing=west,type=2":  { "model": "nouveau:block/lumiere_mural_5", "x": 90, "y": 90 },
+        "facing=east,type=2":  { "model": "nouveau:block/lumiere_mural_5", "x": 90, "y": 270 },
+		"facing=up,type=2": { "model": "nouveau:block/lumiere_mural_5", "x": 180 },
+		"facing=down,type=2": { "model": "nouveau:block/lumiere_mural_5" }
+    }
+}

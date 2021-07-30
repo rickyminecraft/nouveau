@@ -1,0 +1,17 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"# ",
+		" #",
+		"# "
+	],
+	"key":{
+		"#":{
+			"item":"nouveau:chaine_petite_or"
+		}
+	},
+	"result":{
+		"item":"nouveau:chaine_large_or",
+		"count": 3
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"X#X"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:oak_planks"},
+		"X":{
+			"item":"minecraft:iron_ingot"
+		}
+	},
+	"result":{
+		"item":"nouveau:oak_crate"
+	}
+}

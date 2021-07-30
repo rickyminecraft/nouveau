@@ -1,0 +1,53 @@
+{
+    "parent": "block/block",
+	"textures": {
+        "side": "block/birch_planks",
+		"front": "nouveau:blocks/horloge",
+		"clock": "block/cauldron_side",
+        "particle": "block/birch_planks"
+    },
+    "elements": [
+        {   "from": [5, 10, 0],
+			"to": [11, 16, 6],
+            "faces": {
+                "down":  { "texture": "#side" },
+                "up":    { "texture": "#side" },
+                "north": { "texture": "#side", "cullface": "north" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "from": [5.5, 10.5, 6],
+			"to": [10.5, 15.5, 6.25],
+            "faces": {
+                "down":  { "texture": "#side" },
+                "up":    { "texture": "#side" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#front", "uvlock": true },
+                "west":  { "texture": "#side" },
+                "east":  { "texture": "#side" }
+            }
+        },
+		{   "from": [7.5, 4, 2.5],
+			"to": [8.5, 10, 3.5],
+            "faces": {
+                "down":  { "texture": "#clock" },
+                "north": { "texture": "#clock" },
+                "south": { "texture": "#clock" },
+                "west":  { "texture": "#clock" },
+                "east":  { "texture": "#clock" }
+            }
+        },
+		{   "from": [6.5, 1, 2.5],
+			"to": [9.5, 4, 3.5],
+            "faces": {
+                "down":  { "texture": "#clock" },
+                "up":    { "texture": "#clock" },
+                "north": { "texture": "#clock" },
+                "south": { "texture": "#clock" },
+                "west":  { "texture": "#clock" },
+                "east":  { "texture": "#clock" }
+            }
+        }
+    ]
+}

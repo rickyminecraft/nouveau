@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "nouveau blocks",
+        "pack_format": 6,
+        "_comment": "un mod qui rajoute des blocks"
+    }
+}

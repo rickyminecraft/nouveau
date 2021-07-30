@@ -1,0 +1,8 @@
+{
+	"parent": "nouveau:block/fenetre_4_all",
+    "textures": {
+        "all": "block/quartz_block_side",
+		"iron": "block/anvil",
+        "particle": "block/quartz_block_side"
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"parent": "nouveau:block/plateau_all",
+    "textures": {
+        "bottom": "block/jungle_planks",
+        "top": "block/jungle_planks",
+        "side": "block/jungle_planks",
+        "particle": "block/jungle_planks"
+    }
+}

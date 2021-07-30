@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/meuble_02_all",
+    "textures": {
+        "all": "block/spruce_planks",
+        "particle": "block/spruce_planks"
+    }
+}

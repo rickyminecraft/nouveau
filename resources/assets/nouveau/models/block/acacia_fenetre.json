@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/fenetre_0_all",
+    "textures": {
+        "all": "block/acacia_planks",
+        "particle": "block/acacia_planks"
+    }
+}

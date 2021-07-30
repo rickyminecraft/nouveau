@@ -1,0 +1,8 @@
+{
+	"forge_marker": 1,
+	"variants": {
+	"axis=x": {"model": "nouveau:block/chaine_small_iron", "x": 90, "y": 90 },
+	"axis=y": {"model": "nouveau:block/chaine_small_iron" },
+	"axis=z": {"model": "nouveau:block/chaine_small_iron", "x": 90 }
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/creux_all",
+    "textures": {
+        "all": "block/birch_planks",
+        "particle": "block/birch_planks"
+    }
+}

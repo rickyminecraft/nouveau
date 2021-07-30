@@ -1,0 +1,13 @@
+{
+	"forge_marker": 1,
+    "variants": {
+        "facing=north,half=lower": { "model": "nouveau:block/spruce_armoire_01_bottom", "y": 180 },
+        "facing=south,half=lower": { "model": "nouveau:block/spruce_armoire_01_bottom"},
+        "facing=west,half=lower":  { "model": "nouveau:block/spruce_armoire_01_bottom", "y": 90 },
+        "facing=east,half=lower":  { "model": "nouveau:block/spruce_armoire_01_bottom", "y": 270 },
+		"facing=north,half=upper": { "model": "nouveau:block/spruce_armoire_01_top", "y": 180 },
+        "facing=south,half=upper": { "model": "nouveau:block/spruce_armoire_01_top"},
+        "facing=west,half=upper":  { "model": "nouveau:block/spruce_armoire_01_top", "y": 90 },
+        "facing=east,half=upper":  { "model": "nouveau:block/spruce_armoire_01_top", "y": 270 }
+    }
+}

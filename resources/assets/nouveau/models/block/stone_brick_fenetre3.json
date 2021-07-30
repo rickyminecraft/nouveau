@@ -1,0 +1,7 @@
+{
+	"parent": "nouveau:block/fenetre_3_all",
+    "textures": {
+        "all": "block/stone_bricks",
+        "particle": "block/stone_bricks"
+    }
+}

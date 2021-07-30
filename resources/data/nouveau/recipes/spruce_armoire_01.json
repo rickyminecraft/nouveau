@@ -1,0 +1,16 @@
+{
+	"type":"minecraft:crafting_shaped",
+	"pattern":[
+		"#",
+		"#"
+	],
+	"key":{
+		"#":{
+			"item":"minecraft:spruce_meuble_02"
+		}
+	},
+	"result":{
+		"item":"nouveau:spruce_armoire_01",
+		"count": 2
+	}
+}

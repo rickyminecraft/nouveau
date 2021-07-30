@@ -1,0 +1,8 @@
+{
+	"parent": "nouveau:block/fenetre_4_all",
+    "textures": {
+        "all": "block/prismarine",
+		"iron": "block/anvil",
+        "particle": "block/prismarine"
+    }
+}

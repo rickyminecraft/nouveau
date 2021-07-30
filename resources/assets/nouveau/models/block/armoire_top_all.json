@@ -1,0 +1,66 @@
+{
+    "parent": "block/block",
+    "elements": [
+        {   "from": [ 0, 0, 15 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#all", "cullface": "up" },
+                "south": { "texture": "#all", "cullface": "south" },
+                "west":  { "texture": "#all", "cullface": "west" },
+                "east":  { "texture": "#all", "cullface": "east" }
+            }
+        },
+		{   "from": [ 0, 0, 0 ],
+            "to": [ 1, 16, 15 ],
+            "faces": {
+                "up":    { "texture": "#all", "cullface": "up" },
+                "north": { "texture": "#all", "cullface": "north" },
+                "west":  { "texture": "#all", "cullface": "west" },
+                "east":  { "texture": "#all" }
+            }
+        },
+		{   "from": [ 15, 0, 0 ],
+            "to": [ 16, 16, 15 ],
+            "faces": {
+                "up":    { "texture": "#all", "cullface": "up" },
+                "north": { "texture": "#all", "cullface": "north" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all", "cullface": "east" }
+            }
+        },
+		{   "from": [ 1, 15, 0 ],
+            "to": [ 15, 16, 15 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all", "cullface": "up" },
+                "north": { "texture": "#all", "cullface": "north" }
+            }
+        },
+		{   "from": [ 1, 0, 1 ],
+            "to": [ 15, 15, 15 ],
+            "faces": {
+                "north": { "texture": "#all", "cullface": "north" }
+            }
+        },
+		{   "from": [ 2, 1, 0 ],
+            "to": [ 4, 2, 1 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        },
+		{   "from": [ 2, 4, 0 ],
+            "to": [ 14, 13, 1 ],
+            "faces": {
+                "down":  { "texture": "#all" },
+                "up":    { "texture": "#all" },
+                "north": { "texture": "#all" },
+                "west":  { "texture": "#all" },
+                "east":  { "texture": "#all" }
+            }
+        }
+    ]
+}
