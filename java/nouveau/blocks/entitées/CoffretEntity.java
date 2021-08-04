@@ -226,7 +226,7 @@ public class CoffretEntity extends RandomizableContainerBlockEntity implements L
 	}
 
 	@Override
-	protected void invalidateCaps() 
+	public void invalidateCaps() 
 	{
 		super.invalidateCaps();
 		if (chestHandler != null)
