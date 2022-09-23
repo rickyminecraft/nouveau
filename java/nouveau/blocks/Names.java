@@ -218,8 +218,6 @@ public class Names
 		
 		reg.getRegistry().register(BlocksNames.effets);
 		reg.getRegistry().register(BlocksNames.pupitre);
-		//dummy block
-		reg.getRegistry().register(BlocksNames.Particlebrume);
 		
 	}
 	

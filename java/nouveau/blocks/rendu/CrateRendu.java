@@ -3,7 +3,6 @@ package nouveau.blocks.rendu;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.blockentity.BlockEntityRenderDispatcher;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,10 +12,9 @@ import nouveau.blocks.entitées.CoffretEntity;
 @OnlyIn(Dist.CLIENT)
 public class CrateRendu implements BlockEntityRenderer<CoffretEntity>
 {
-	private final BlockEntityRenderDispatcher renderer;
 	public CrateRendu(BlockEntityRendererProvider.Context p_173613_)
 	{
-		this.renderer = p_173613_.getBlockEntityRenderDispatcher();
+		p_173613_.getBlockEntityRenderDispatcher();
 	}
 
 	@Override

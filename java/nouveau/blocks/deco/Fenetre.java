@@ -29,9 +29,9 @@ public class Fenetre extends HorizontalDirectionalBlock implements SimpleWaterlo
 {
 	public static final IntegerProperty TYPE = IntegerProperty.create("type", 0, 4);
 	private static final VoxelShape FENETRE_A_AABB = Block.box(12.5D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
-	private static final VoxelShape FENETRE_B_AABB = Block.box(0.0D, 0.0D, 0.0D, 4.0D, 16.0D, 16.0D);
+	private static final VoxelShape FENETRE_B_AABB = Block.box(0.0D, 0.0D, 0.0D, 3.5D, 16.0D, 16.0D);
 	private static final VoxelShape FENETRE_C_AABB = Block.box(0.0D, 0.0D, 12.5D, 16.0D, 16.0D, 16.0D);
-	private static final VoxelShape FENETRE_D_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 4.0D);
+	private static final VoxelShape FENETRE_D_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 3.5D);
 	private static final VoxelShape FENETRE_HAUT_AABB = Block.box(0.0D, 11.0D, 0.0D, 16.0D, 16.0D, 16.0D);
 	private static final VoxelShape FENETRE_ROND_BAS_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 1.5D, 16.0D);
 	private static final VoxelShape FENETRE_ROND_GAUCHE_AABB = Block.box(0.0D, 0.0D, 0.0D, 1.5D, 16.0D, 16.0D);

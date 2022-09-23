@@ -107,7 +107,7 @@ public class Creux extends DirectionalBlock implements SimpleWaterloggedBlock
 	{
 		if (stateIn.getValue(WATERLOGGED)) 
 		{
-			worldIn.getLiquidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(worldIn));
+			worldIn.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(worldIn));
 		}
 
 		return super.updateShape(stateIn, facing, facingState, worldIn, currentPos, facingPos);

@@ -91,9 +91,6 @@ public class Makeblock
 		BlocksNames.lumiere_mural_0 = new Lumieres_mural(Block.Properties.of(Material.GLASS, MaterialColor.QUARTZ).strength(0.3F).sound(SoundType.GLASS).lightLevel((p_235464_0_) -> {return 15;})).setRegistryName("lumiere_mural_0");
 		BlocksNames.lumiere_mural_1 = new Lumieres_mural(Block.Properties.of(Material.GLASS, MaterialColor.QUARTZ).strength(0.3F).sound(SoundType.GLASS).lightLevel((p_235464_0_) -> {return 15;})).setRegistryName("lumiere_mural_1");
 		
-		//dummy block
-		BlocksNames.Particlebrume = new Block(Block.Properties.of(Material.STONE)).setRegistryName("brume");
-		
 		BlocksNames.oak_Chaise =  new Chaise(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD)).setRegistryName("oak_chaise");
 		BlocksNames.dark_oak_Chaise =  new Chaise(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_BROWN).strength(2.0F, 3.0F).sound(SoundType.WOOD)).setRegistryName("dark_oak_chaise");
 		BlocksNames.spruce_Chaise =  new Chaise(Block.Properties.of(Material.WOOD, MaterialColor.PODZOL).strength(2.0F, 3.0F).sound(SoundType.WOOD)).setRegistryName("spruce_chaise");

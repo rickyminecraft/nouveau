@@ -1,9 +1,6 @@
 package nouveau.blocks.deco;
 
 import java.util.Random;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.client.particle.Particle;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.DustParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
@@ -31,19 +28,15 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class Effets extends Block
 {
-	public static final IntegerProperty TYPE = IntegerProperty.create("type", 0, 4);
+	public static final IntegerProperty TYPE = IntegerProperty.create("type", 0, 3);
 	protected static final VoxelShape EFFETS_AABB = Block.box(0.0D, 0.001D, 0.0D, 16.0D, 1.5D, 16.0D);
 	protected static final VoxelShape NULL_AABB = Block.box(0.0D, 0.0D, 0.0D, 0.0D, 0.0D, 0.0D);
-	private static int Compteur;
-	//private static int Tickrate;
 	private static int loopsound = 0;
 
 	public Effets(Properties properties)
 	{
 		super(properties);
 		this.registerDefaultState(this.stateDefinition.any().setValue(TYPE, 0));
-		Compteur = 0;
-		//Tickrate = 15;
 	}
 	
 	/**
@@ -109,7 +102,7 @@ public class Effets extends Block
         	{
         		int itype = state.getValue(TYPE).intValue();
         		itype++;
-        		if (itype == 5)
+        		if (itype == 4)
         		{
         			itype= 0;
         		}
@@ -149,36 +142,6 @@ public class Effets extends Block
 		}
 		if (itype == 1)
 		{
-			if (Compteur >= 5)
-			{
-				double x;
-				double y;
-				double z;
-				Particle entityfx = null;
-				final Minecraft mc = Minecraft.getInstance();
-				for (int l = 0; l < 1; ++l)
-				{
-					x = pos.getX() + rand.nextFloat();
-					y = pos.getY() + rand.nextFloat();
-					z = pos.getZ() + rand.nextFloat();
-					entityfx = new BrumeFX((ClientLevel)worldIn, x, y, z, 0.0D, 0.0D, 0.0D);
-					mc.particleEngine.add(entityfx);
-				}
-				x = pos.getX();
-				y = pos.getY();
-				z = pos.getZ();
-				loopsound++;
-				if (loopsound == 19)
-				{
-					worldIn.playLocalSound(x, y, z, SoundEvents.AMBIENT_CAVE, SoundSource.AMBIENT, 0.2F, 0.2F + rand.nextFloat() * 0.2F, true);
-					loopsound = 0;
-				}
-				Compteur = -1;
-			}
-			Compteur ++;
-		}
-		if (itype == 2)
-		{
 			double x;
 			double y;
 			double z;
@@ -199,7 +162,7 @@ public class Effets extends Block
 				loopsound = 0;
 			}
 		}
-		if (itype == 3)
+		if (itype == 2)
 		{
 			double x;
 			double y;
@@ -221,7 +184,7 @@ public class Effets extends Block
 				loopsound = 0;
 			}
 		}
-		if (itype == 4)
+		if (itype == 3)
 		{
 			double x;
 			double y;

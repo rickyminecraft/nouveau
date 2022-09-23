@@ -39,8 +39,6 @@ public class CoffretRendu<CoffretEntity extends BlockEntity & LidBlockEntity> im
 	private final ModelPart lock;
 	private boolean xmasTextures;
 
-	private boolean isChristmas;
-
 	public CoffretRendu(BlockEntityRendererProvider.Context p_173607_) 
 	{
 		Calendar calendar = Calendar.getInstance();

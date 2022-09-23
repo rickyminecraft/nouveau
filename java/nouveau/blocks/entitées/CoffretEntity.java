@@ -32,7 +32,6 @@ import nouveau.blocks.TileentityTypes;
 
 public class CoffretEntity extends RandomizableContainerBlockEntity implements LidBlockEntity
 {
-	private static final int EVENT_SET_OPEN_COUNT = 1;
 	private NonNullList<ItemStack> items = NonNullList.withSize(27, ItemStack.EMPTY);
 	private final ContainerOpenersCounter openersCounter = new ContainerOpenersCounter() 
 	{
@@ -138,13 +137,11 @@ public class CoffretEntity extends RandomizableContainerBlockEntity implements L
 	}
 
 	@Override
-	public CompoundTag save(CompoundTag p_189515_1_) {
-		super.save(p_189515_1_);
+	public void saveAdditional(CompoundTag p_189515_1_) {
+		super.saveAdditional(p_189515_1_);
 		if (!this.trySaveLootTable(p_189515_1_)) {
 			ContainerHelper.saveAllItems(p_189515_1_, this.items);
 		}
-
-		return p_189515_1_;
 	}
 
 	public static int getOpenCount(BlockGetter p_59087_, BlockPos p_59088_) {

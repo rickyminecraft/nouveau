@@ -38,14 +38,6 @@ public class Blocks
 	public void preInit(final FMLClientSetupEvent  event) 
 	{
 		BlockEntityRenderers.register(TileentityTypes.COFFRET, CoffretRendu::new);
-	}
-	
-	@SubscribeEvent
-	public static void registerBlocks(final RegistryEvent.Register<Block> Reg)
-	{
-		Makeblock.makeblocks();
-		Names.registerBlocks(Reg);
-		
 		//pour attribuer le bon rendu au bloc
 		//plus exactement active la transparence de la texture
 		RenderType Type = RenderType.cutoutMipped();
@@ -58,6 +50,13 @@ public class Blocks
 		ItemBlockRenderTypes.setRenderLayer(BlocksNames.acacia_table, Type);
 		ItemBlockRenderTypes.setRenderLayer(BlocksNames.Couverts, Type);
 		ItemBlockRenderTypes.setRenderLayer(BlocksNames.Door18, Type);
+	}
+	
+	@SubscribeEvent
+	public static void registerBlocks(final RegistryEvent.Register<Block> Reg)
+	{
+		Makeblock.makeblocks();
+		Names.registerBlocks(Reg);
 	}
 
 	@SubscribeEvent

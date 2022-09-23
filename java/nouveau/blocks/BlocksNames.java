@@ -233,7 +233,5 @@ public class BlocksNames
 	public static Item ItemDoor17;
 	public static Item ItemDoor18;
 	public static Item ItemDoor19;
-	//dummy block
-	public static Block Particlebrume;
 
 }

@@ -29,7 +29,6 @@ import nouveau.blocks.TileentityTypes;
 
 public class CrateEntity extends RandomizableContainerBlockEntity
 {
-	private final int EVENT_SET_OPEN_COUNT = 1;
 	private NonNullList<ItemStack> items = NonNullList.withSize(27, ItemStack.EMPTY);
 	private final ContainerOpenersCounter openersCounter = new ContainerOpenersCounter() 
 	{
@@ -130,15 +129,13 @@ public class CrateEntity extends RandomizableContainerBlockEntity
 	}
 
 	@Override
-	public CompoundTag save(CompoundTag compound)
+	public void saveAdditional(CompoundTag compound)
 	{
-		super.save(compound);
+		super.saveAdditional(compound);
 		if (!this.trySaveLootTable(compound))
 		{
 			ContainerHelper.saveAllItems(compound, this.items);
 		}
-
-		return compound;
 	}
 
 	public static void swapContents(CrateEntity chest, CrateEntity otherChest)
